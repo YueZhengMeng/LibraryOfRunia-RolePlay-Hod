@@ -15,7 +15,9 @@ Hod坚持着愈发善良的希望，想要做一个更加善良的人。只要�
 
 Hod Wiki：https://libraryofruina.huijiwiki.com/wiki/Hod
 
-**本项目旨在用大语言模型微调技术实现Hod的人格复刻**
+**本项目旨在用大语言模型微调技术实现Hod的人格复刻**  
+**注意：由于Hod角色对话语料太少，以及个人能力不足，目前模型对话效果还很不理想**  
+**之后会上传实验记录与失败原因分析文章，并尝试改进**
 
 **🌠 模型权重已上传 OpenXLab🌠**：https://openxlab.org.cn/models/detail/YueZhengMeng/InternLM2_Hod_7B
 
@@ -23,11 +25,11 @@ Hod Wiki：https://libraryofruina.huijiwiki.com/wiki/Hod
 
 **🌠 模型体验 Demo 已上线 OpenXLab🌠**:https://openxlab.org.cn/apps/detail/YueZhengMeng/LibraryOfRunia-Hod-Chat
 
-**🌠 项目复现指南 🌠**:
+**🌠 实验记录与失败原因分析 🌠**: https://zhuanlan.zhihu.com/p/689756528
 
 ## News
 
-- [TODO] 项目复现指南上传知乎
+- [2023-3-29] 实验记录与失败原因分析上传知乎
 - [2024-3-19] 模型体验 Demo 已上线 OpenXLab
 - [2024-3-18] 使用 xtuner,QLoRA 微调了 InternLM2-7B 模型,模型权重上传 OpenXLab、ModelScope
 
@@ -63,8 +65,7 @@ print(response)
 </details>
 
 ## 📌 项目计划
-- [ ] 增加训练步数
-- [ ] 尝试使用单轮对话训练
+- [ ] 使用大模型生成更多对话数据
 - [ ] 对话时进行 RAG（很多背景描述都在旁白中）
 
 ---
